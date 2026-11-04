@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wine: #4b1729;
+  --color-wine-deep: #35101d;
+  --color-ivory: #f8f4ec;
+  --color-ivory-soft: #efe8dc;
+  --color-champagne: #c5a46d;
+  --color-charcoal: #242121;
+  --color-taupe: #b7a99a;
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-manrope), "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ivory text-charcoal font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-champagne);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: var(--color-champagne);
+    color: var(--color-charcoal);
+  }
+}
+
+@layer components {
+  /* Signature motif: the arch of a mandap, used for key image frames. */
+  .arch-frame {
+    border-radius: 50% 50% 0 0 / 34% 34% 0 0;
+    overflow: hidden;
+  }
+
+  /* Hairline gold rule used sparingly to frame content. */
+  .gold-rule {
+    border-color: color-mix(in oklab, var(--color-champagne) 55%, transparent);
+  }
+
+  .prose-editorial p + p {
+    margin-top: 1.1em;
+  }
+}
+
+@keyframes scrollline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
