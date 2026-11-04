@@ -3,6 +3,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { EnquiryForm } from "@/components/contact/EnquiryForm";
 import { ContactDetails } from "@/components/contact/ContactDetails";
 import { images } from "@/config/images";
+import { site } from "@/config/site";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
