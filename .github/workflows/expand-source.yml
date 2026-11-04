@@ -5,7 +5,7 @@ on:
     branches:
       - audited-meena-events-v2
     paths:
-      - upload-chunks/part-27.b64
+      - upload-chunks/part-07.b64
 
 permissions:
   contents: write
