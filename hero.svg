@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-label="HERO PHOTOGRAPH">
+  <rect width="1600" height="1200" fill="#35101D"/>
+  <g>
+    <path d="M540 980 L540 720 A260 260 0 0 1 1060 720 L1060 980" fill="none" stroke="#C5A46D" stroke-width="2.5" opacity="0.90"/>
+    <path d="M440 980 L440 620 A360 360 0 0 1 1160 620 L1160 980" fill="none" stroke="#C5A46D" stroke-width="1.2" opacity="0.72"/>
+    <path d="M340 980 L340 520 A460 460 0 0 1 1260 520 L1260 980" fill="none" stroke="#C5A46D" stroke-width="1.2" opacity="0.54"/>
+    <path d="M240 980 L240 420 A560 560 0 0 1 1360 420 L1360 980" fill="none" stroke="#C5A46D" stroke-width="1.2" opacity="0.36"/>
+  </g>
+  <line x1="0" y1="980" x2="1600" y2="980" stroke="#C5A46D" stroke-width="1" opacity="0.5"/>
+  <text x="800" y="1060" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="5" fill="#E8DFD0" opacity="0.9">HERO PHOTOGRAPH</text>
+  <text x="800" y="1102" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#E8DFD0" opacity="0.65">Placeholder · replace in config/images.ts</text>
+</svg>

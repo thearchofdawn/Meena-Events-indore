@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-label="WEDDING">
+  <rect width="1600" height="1200" fill="#4B1729"/>
+  <g>
+    <path d="M600 980 L600 780 A200 200 0 0 1 1000 780 L1000 980" fill="none" stroke="#C5A46D" stroke-width="2.5" opacity="0.90"/>
+    <path d="M500 980 L500 680 A300 300 0 0 1 1100 680 L1100 980" fill="none" stroke="#C5A46D" stroke-width="1.2" opacity="0.72"/>
+  </g>
+  <line x1="0" y1="980" x2="1600" y2="980" stroke="#C5A46D" stroke-width="1" opacity="0.5"/>
+  <text x="800" y="1060" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="5" fill="#E8DFD0" opacity="0.9">WEDDING</text>
+  <text x="800" y="1102" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#E8DFD0" opacity="0.65">Placeholder · replace in config/images.ts</text>
+</svg>
